@@ -93,9 +93,7 @@ async def test_with_real_api():
     print("\nTesting with real API (if available)...")
 
     api_key = os.getenv("OPENROUTER_API_KEY")
-    print(f" Debug - API key loaded: {'Yes' if api_key else 'No'}")
-    if api_key:
-        print(f"Debug - API key prefix: {api_key[:20]}...")
+    print(f"Debug - API key loaded: {'Yes' if api_key else 'No'}")
     
     if not api_key:
         print("No OPENROUTER_API_KEY found - skipping real API test")
