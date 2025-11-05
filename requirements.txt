@@ -1,0 +1,31 @@
+# Core dependencies
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# AI/ML providers
+openai>=1.12.0              # For OpenAI and OpenRouter API
+anthropic>=0.18.0           # For Anthropic Claude API
+
+# Google services
+google-api-python-client>=2.100.0  # For Google Custom Search
+
+# Data processing
+dataclasses-json>=0.6.0     # For config serialization
+
+# Optional - for future features
+# Pillow>=10.0.0            # For local image processing
+# opencv-python>=4.8.0      # For advanced image processing
+# beautifulsoup4>=4.12.0    # For web scraping
+# selenium>=4.15.0          # For dynamic web scraping
+
+# Development dependencies
+pytest>=7.4.0               # For testing
+pytest-asyncio>=0.21.0      # For async testing
+black>=23.10.0              # For code formatting
+flake8>=6.1.0               # For linting
+mypy>=1.6.0                 # For type checking
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=7.0.0
